@@ -9,14 +9,14 @@ console.log (`verificar se o valor ${num1} (int) é menor que ${num2} (string): 
 console.log (`verificar se há desigualdade entre ${num3} e ${num4}: ${num4 != num3}`);
 
 /* 2. Conversor de Temperatura: Declare uma variável com a temperatura em Celsius e
-converta para Fahrenheit usando a fórmula (C * 9/5) + 32.
+converta para Fahrenheit usando a fórmula (C * 9/5) + 32. */
 let Celsius = prompt('Informe a temperatura em celsius para ser convertda em Fahrenheit');
 const Fahrenheit = (Celsius * 9/5) + 32;
 alert (`${Celsius} em celsius é ${Fahrenheit} Fahrenheit.`)*/
 
 
 /*Cálculo de Desconto: Dado um valor de produto e uma porcentagem de desconto,
-calcule o preço final.
+calcule o preço final.*/
 
 const valor_produto = prompt('Informe o valor do produto:');
 const porcentagem_desconto = prompt('Informe a porcentagem do valor do desconto');
@@ -32,7 +32,7 @@ alert(`Para um produto que custa ${valor_produto} o desconto ${porcentagem_desco
 /*10. Sucessor e Antecessor: Leia um número inteiro e armazene seu antecessor e seu
 sucessor em variáveis distintas.*/
 
-/*const numero_verificar = prompt ('informar um numero')
+const numero_verificar = prompt ('informar um numero')
 const antercessor = numero_verificar - 1;
 const sucessor = Number(numero_verificar) + 1;
 switch (numero_verificar == Number){
@@ -45,12 +45,12 @@ switch (numero_verificar == Number){
             alert(`que ${numero_verificar} não há casos de teste`)
 
 }
-alert (`${antercessor}--- ${numero_verificar} --- ${sucessor}`);*/
+alert (`${antercessor}--- ${numero_verificar} --- ${sucessor}`);
 
 /*25. Preço de Venda: Dado o custo de um produto e a margem de lucro desejada (%),
 calcule o valor de venda.*/
 
-/*const custo = Number (prompt ('Informe o valor de custo:'));
+const custo = Number (prompt ('Informe o valor de custo:'));
 if(margem_lucro < custo && margem_lucro == 0) {
 alert ('voce não tem faturamento')
 
@@ -58,7 +58,7 @@ alert ('voce não tem faturamento')
 const margem_lucro = Number (prompt ('Informe sua margem de lucro'));
 const faturamento = (custo+(custo*margem_lucro/100))
 const valor_venda = faturamento.toFixed (2)
-alert (`O valor da venda é: ${faturamento.toFixed(2)}`)*/
+alert (`O valor da venda é: ${faturamento.toFixed(2)}`);
 
 
 
